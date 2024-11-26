@@ -2145,8 +2145,18 @@ summary::-webkit-details-marker {
   font-family: "Lato Italic";
   text-align: left;
 }
+.o-headline.is__medium_report {
+  font-size: 60px;
+  color: white;
+  line-height: 1.2;
+  font-family: "Lato Italic";
+  text-align: left;
+}
 @media (max-width: 768px) {
   .o-headline.is__medium {
+    font-size: 8vw;
+  }
+  .o-headline.is__medium_report {
     font-size: 8vw;
   }
 }
@@ -5847,8 +5857,17 @@ summary::-webkit-details-marker {
   font-size: 18px;
   line-height: 1;
 }
+.p-index__column_link_info .report_head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
 @media (max-width: 768px) {
   .p-index__column_link_info .column_head {
+    font-size: 3.7333333333vw;
+    line-height: 1.5;
+  }
+  .p-index__column_link_info .report_head {
     font-size: 3.7333333333vw;
     line-height: 1.5;
   }
@@ -5857,8 +5876,17 @@ summary::-webkit-details-marker {
   margin-top: 1em;
   font-size: 14px;
 }
+.p-index__column_link_info .report_date {
+  margin-top: 1em;
+  font-size: 14px;
+}
 @media (max-width: 768px) {
   .p-index__column_link_info .column_date {
+    margin-top: 2.6666666667vw;
+    font-size: 2.9333333333vw;
+    line-height: 1;
+  }
+  .p-index__column_link_info .report_date {
     margin-top: 2.6666666667vw;
     font-size: 2.9333333333vw;
     line-height: 1;
