@@ -365,14 +365,32 @@ h1 {
 
 h2 {
     margin-left: 10%;
+    margin-right: 10%;
     margin-top: 40px;
     margin-bottom: 40px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
 }
 
 h3 {
     margin-left: 10%;
+    margin-right: 10%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;  
+    padding-left: 10px;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 2px;
+    border: 0;
+    background-color:#FFB108;
+}
+
+.hr {
+    margin-bottom: 50px;
 }
 
 p {
@@ -487,7 +505,7 @@ p {
 section {
     display: flex;
     margin: 5%;
-    gap: 10px;
+    gap: 15px;
 }
 
 .column-report {
