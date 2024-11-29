@@ -381,6 +381,10 @@ h3 {
     padding-left: 10px;
 }
 
+h3.profile{
+    margin-top: 100px;
+}
+
 hr {
     margin-left: 10%;
     margin-right: 10%;
@@ -401,6 +405,10 @@ p {
     margin-bottom: 40px;
     line-height: 2.5;
 
+}
+
+p.margin{
+    margin: 0px auto;
 }
 
 @media (min-width:768px){
@@ -448,7 +456,7 @@ p {
     margin: 5% 10%;
     padding: 30px 0px;
     outline-style: solid;
-    outline-color: blue;
+    outline-color: transparent;
 }
 
 .img-center {
