@@ -1500,7 +1500,9 @@ summary::-webkit-details-marker {
   line-height: 1.2;
   font-family: "Lato Italic";
   text-align: left;
+  padding-top: 20px;
 }
+
 @media (max-width: 768px) {
   .o-headline.is__medium {
     font-size: 8vw;
@@ -1509,6 +1511,7 @@ summary::-webkit-details-marker {
 .o-headline.is__medium.is__white {
   color: #fff;
 }
+
 .o-headline__lead {
   font-weight: 700;
   text-align: center;
