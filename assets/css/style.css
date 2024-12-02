@@ -1966,6 +1966,7 @@ summary::-webkit-details-marker {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 50px;
 }
 .o-case-thumbnail__wrp li + li {
   margin-left: 40px;
