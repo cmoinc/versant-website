@@ -407,10 +407,6 @@ p {
 
 }
 
-p.margin{
-    margin: 0px auto;
-}
-
 @media (min-width:768px){
 
 .headline {
