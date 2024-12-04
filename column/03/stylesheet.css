@@ -46,14 +46,8 @@ header {
     margin-left: -8px;
     box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.1019607843);
     display: flex;
+    justify-content: space-between;
 }
-
-@media (min-width:1024px) {
-    header {
-        justify-content: space-between;
-    }
-}
-
 
 .logo {
     width: 206px;
