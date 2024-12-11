@@ -1632,13 +1632,14 @@ summary::-webkit-details-marker {
 .l-page-head__ttl {
   padding-top: 40px;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 1.4;
+  font-size: 54px;
+  line-height: 1.5;
 }
 @media (max-width: 768px) {
   .l-page-head__ttl {
-    padding-top: 5.3333333333vw;
-    font-size: 9.3333333333vw;
+    padding-top: 7vw;
+    font-size: 6.6vw;
+    line-height: 2;
   }
 }
 .p-casestudy-article .l-page-head__ttl {
