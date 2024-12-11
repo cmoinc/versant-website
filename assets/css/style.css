@@ -6577,6 +6577,7 @@ summary::-webkit-details-marker {
 .score-rep-body{
   width: 90%;
   margin: 0% auto;
+  margin-bottom: 100px;
 }
 
 h3.score-title{ 
@@ -6944,6 +6945,7 @@ ul.score-column li p{
 .youtube_content{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 10em;
 }
 
@@ -6955,6 +6957,23 @@ ul.score-column li p{
 
 @media (max-width:768px){
   .youtube{
-    width: ;
+    width: 80%;
+    height: auto;
+  }
+
+  .youtube_title{
+    width: 80%;
+    font-size: 20;
   }
 }
+
+/* @media (max-width:450px){
+  .youtube{
+    width: 300px;
+  }
+
+  .youtube_title{
+    width: 300px;
+    text-align: center;
+  }
+} */
