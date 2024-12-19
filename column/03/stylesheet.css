@@ -525,7 +525,7 @@ section {
 .column-title {
     text-align: center;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     line-height: 2;
     align-self: center;
 }
@@ -533,18 +533,28 @@ section {
 .column-title-b {
     text-align: center;
     font-weight: bold;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     line-height: 2;
     align-self: center;
 }
 
 @media (max-width:1024px){
     .column-title {
-        font-size: 3.15vw;
+        font-size: 3vw;
     }
 
     .column-title-b{
-        font-size: 3.15vw;
+        font-size: 3vw;
+    }
+}
+
+@media (max-width:768px){
+    .column-title {
+        font-size: 5vw;
+    }
+
+    .column-title-b{
+        font-size: 5vw;
     }
 }
 
