@@ -508,8 +508,20 @@ p {
 
 section {
     display: flex;
-    margin: 10%;
+    margin: 10% 8%;
     gap: 15px;
+}
+
+@media (max-width:1024px){
+    section{
+        margin: 10% 20%;
+    }
+}
+
+@media (max-width:768px){
+    section{
+        margin: 10% 10%;
+    }
 }
 
 .column-report {
@@ -540,11 +552,11 @@ section {
 
 @media (max-width:1024px){
     .column-title {
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
 
     .column-title-b{
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
 }
 
