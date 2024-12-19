@@ -483,7 +483,7 @@ p {
 
 .img-ad-ad {
     width: 280px;
-  height: 290px;
+  height: auto;
   margin: 30px auto;
 }
 
@@ -509,7 +509,7 @@ p {
 section {
     display: flex;
     margin: 10% 8%;
-    gap: 15px;
+    gap: 10px;
 }
 
 @media (max-width:1024px){
@@ -530,23 +530,24 @@ section {
     flex-direction: column;
     align-items: center;
     border: 2px solid #000;
-    width: 100%;
-    padding: 30px;
+    width: 80%;
+    padding-block: 30px;
 }
 
 .column-title {
     text-align: center;
     font-weight: bold;
-    font-size: 1.6vw;
-    line-height: 2;
+    font-size: 1.7vw;
+    line-height: 1.5;
     align-self: center;
 }
+
 
 .column-title-b {
     text-align: center;
     font-weight: bold;
-    font-size: 1.6vw;
-    line-height: 2;
+    font-size: 1.7vw;
+    line-height: 1.5;
     align-self: center;
 }
 
