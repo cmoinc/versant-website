@@ -1407,6 +1407,39 @@ summary::-webkit-details-marker {
   }
 }
 
+.l-inner-a {
+  max-width: 800px;
+  margin-inline: auto;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+@media (max-width: 1100px) and (min-width: 769px) {
+  .l-inner-a {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .l-inner-a {
+    max-width: 82vw;
+    margin-top: 2em;
+  }
+}
+
+.l-inner-a h2{
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width:768px){
+  .l-inner-a h2{
+  font-size: 6.1333vw;
+  }
+}
+
 .l-kv {
   position: relative;
   height: 500px;
@@ -1590,12 +1623,12 @@ summary::-webkit-details-marker {
   width: -moz-fit-content;
   width: fit-content;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 54px;
   line-height: 1.2;
 }
 @media (max-width: 768px) {
   .l-page-head__name {
-    font-size: 4.8vw;
+    font-size: 5.8vw;
   }
 }
 .l-page-head__name::after {
@@ -1632,13 +1665,13 @@ summary::-webkit-details-marker {
 .l-page-head__ttl {
   padding-top: 40px;
   font-weight: bold;
-  font-size: 54px;
+  font-size: 24px;
   line-height: 1.5;
 }
 @media (max-width: 768px) {
   .l-page-head__ttl {
     padding-top: 7vw;
-    font-size: 6.6vw;
+    font-size: 4.8vw;
     line-height: 2;
   }
 }
@@ -6577,27 +6610,23 @@ summary::-webkit-details-marker {
 
 .score-rep-body{
   width: 90%;
-  margin: 0% auto;
-  margin-bottom: 100px;
+  margin-inline: auto;
+  margin-bottom: 110px;
+  margin-top: 150px;
 }
 
-h3.score-title{ 
-  font-family: "Noto Sans JP";
-  color: black;
+.score-rep h2{
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 40px;
   text-align: center;
-  font-size: 3vw;
-  font-weight: bolder;
-  margin-bottom: 1em;
-  margin-top: 4em;
 }
 
 @media (max-width:768px){
-  h3.score-title{font-size: 4.2vw;
+  .score-rep h2{
+    margin-bottom: 8vw;
+    font-size: 4.8vw;
   }
-}
-
-h3.score-title em{
-  font-style: normal;
 }
 
 ul.practice4column {
