@@ -474,18 +474,17 @@ p {
 
 .img-ad {
     height: auto;
-    width: 100%;
+    width: 290px;
     align-self: center;
-    margin: 80px 20px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+    margin-inline: 20px;
 }
 
 .img-ad-ad {
-    height: auto;
-    width: 100%;
-    align-self: center;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
+    width: 280px;
+  height: 290px;
+  margin: 30px auto;
 }
 
 .box-ad {
@@ -519,8 +518,8 @@ section {
     flex-direction: column;
     align-items: center;
     border: 2px solid #000;
-    width: 80%;
-    padding: 40px;
+    width: 100%;
+    padding: 30px;
 }
 
 .column-title {
@@ -531,15 +530,27 @@ section {
     align-self: center;
 }
 
-@media (max-width:768px){
+.column-title-b {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3vw;
+    line-height: 2;
+    align-self: center;
+}
+
+@media (max-width:1024px){
     .column-title {
-        font-size: 18px;
+        font-size: 3.15vw;
+    }
+
+    .column-title-b{
+        font-size: 3.15vw;
     }
 }
 
-@media (max-width:1024px) {
-    .column-title {
-        font-size: 20px;
+@media (max-width:768px){
+    .p-column-list{
+        font-size: small;
     }
 }
 
