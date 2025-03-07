@@ -5914,6 +5914,12 @@ summary::-webkit-details-marker {
     line-height: 1.5;
   }
 }
+.p-index__column_link_info h5{
+  color: #000;
+}
+.p-index__column_link_info p{
+  color: #000;
+}
 .p-index__column_link_info .column_date {
   margin-top: 1em;
   font-size: 14px;
