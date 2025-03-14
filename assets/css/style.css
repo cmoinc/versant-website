@@ -1595,8 +1595,8 @@ summary::-webkit-details-marker {
 
 .l-page-head {
   position: relative;
-  min-height: 520px;
-  padding: 160px 0 5.71vw;
+  min-height: 350px;
+  padding: 120px 0 5.71vw;
   color: #fff;
 }
 @media (max-width: 768px) {
