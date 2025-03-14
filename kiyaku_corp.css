@@ -402,6 +402,7 @@ p {
 
 .date{
     text-align: right;
+    margin-block: 15px;
 }
 
 .partners{
