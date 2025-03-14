@@ -1595,15 +1595,22 @@ summary::-webkit-details-marker {
 
 .l-page-head {
   position: relative;
-  min-height: 350px;
-  padding: 120px 0 5.71vw;
+  min-height: 520px;
+  padding: 160px 0 5.71vw;
   color: #fff;
+}
+.l-page-head.colum{
+  min-height: 400px;
+  padding-top: 130px;
 }
 @media (max-width: 768px) {
   .l-page-head {
     min-height: 65.3333333333vw;
     padding-top: 29.3333333333vw;
     padding-bottom: 20vw;
+  }
+  .l-page-head.colum{
+    min-height: 50vw;
   }
 }
 .l-page-head::after {
