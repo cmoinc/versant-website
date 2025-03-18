@@ -2122,6 +2122,7 @@ summary::-webkit-details-marker {
   text-align: center;
   font-size: 12px;
   padding-block: 3px;
+  word-break: keep-all;
 }
 
 .o-case-thumbnail {
