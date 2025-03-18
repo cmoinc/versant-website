@@ -2106,6 +2106,24 @@ summary::-webkit-details-marker {
   }
 }
 
+.sort_tag{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px 15px;
+}
+@media (max-width:768px){
+  .sort_tag{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.s_tag{
+  background-color: #EAE9E9;
+  text-align: center;
+  font-size: 12px;
+  padding-block: 3px;
+}
+
 .o-case-thumbnail {
   display: block;
   width: 530px;
