@@ -2033,10 +2033,14 @@ summary::-webkit-details-marker {
 }
 @media (max-width: 768px){
   .sorting_a{
+    display: block;
+    height: fit-content;
     padding: 15px;
     gap: 20px;
   }
   .sorting_b{
+    display: block;
+    height: fit-content;
     padding: 15px;
     gap: 20px;
   }
@@ -2052,6 +2056,16 @@ summary::-webkit-details-marker {
   height: 200px;
   align-items: center;
   gap: 10px;
+}
+@media (max-width: 768px){
+  .sorting_txt_a{
+    height: fit-content;
+    margin-bottom: 15px;
+  }
+  .sorting_txt_b{
+   height: fit-content;
+   margin-bottom: 15px;
+  }
 }
 .sorting_title{
   font-size: 20px;
@@ -2071,6 +2085,7 @@ summary::-webkit-details-marker {
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  align-items: center;
 }
 @media (max-width: 768px) {
   .sorting_btn{
@@ -2084,6 +2099,11 @@ summary::-webkit-details-marker {
   background-color: #fffdfe;
   border: #ececec solid 1px;
   word-break: keep-all;
+}
+@media (max-width:768px){
+  .sort_txt{
+    font-size: 12px;
+  }
 }
 
 .o-case-thumbnail {
@@ -2385,6 +2405,11 @@ summary::-webkit-details-marker {
   font-family: Noto Sans JP;
   margin-top: 80px;
   margin-bottom: 60px;
+}
+@media (max-width: 768px){
+  .case_title{
+    font-size: 28px;
+  }
 }
 .p-casestudy-article {
   padding-bottom: 150px;
