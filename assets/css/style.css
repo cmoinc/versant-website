@@ -2021,7 +2021,6 @@ summary::-webkit-details-marker {
   justify-self: center;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
 }
 @media (min-width: 768px){
   .sorting_a{
