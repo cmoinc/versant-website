@@ -2119,8 +2119,9 @@ summary::-webkit-details-marker {
 .s_tag{
   background-color: #EAE9E9;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   padding-block: 3px;
+  padding-inline: 1px;
   word-break: keep-all;
 }
 
