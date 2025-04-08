@@ -3666,6 +3666,19 @@ summary::-webkit-details-marker {
   content: "・";
 }
 
+.column04_title_section{
+  margin-inline: 10%;
+  margin-top: 150px;
+}
+.column04_title{
+  font-size: 2.7vw;
+  line-height: 2;
+  font-weight: bold;
+}
+.column04_date{
+  font-size: smaller;
+}
+
 .p-faq {
   padding-bottom: 100px;
 }
