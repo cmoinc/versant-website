@@ -3675,24 +3675,61 @@ summary::-webkit-details-marker {
   line-height: 2;
   font-weight: bold;
 }
+@media (max-width:768px){
+  .column04_title_section{
+    margin-inline: 30px;
+  }
+  .column04_title{
+    font-size: 5vw;
+  }
+}
 .column04_date{
   font-size: smaller;
 }
-
+@media (max-width: 768px){
+  .column04_date{
+    font-size: x-small;
+  }
+}
+.h2_04{
+  background-color: #000;
+  color: white;
+  padding-left: 15px;
+  padding-block: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-block: 30px;
+}
+.h3_04{
+  font-size: 20px;
+  font-weight: bold;
+  margin-block: 30px;
+}
+.p_04{
+  margin-block: 20px;
+}
 .profile{
   margin-inline: 40px;
   max-width: 800px;
   justify-self: center;
   font-family: Noto Sans JP;
+  margin-top: 100px;
 }
 .title_profile{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+
 }
 .profile_info{
   display: flex;
   gap: 30px;
   margin-block: 40px;
+}
+@media (max-width: 768px){
+  .profile_info{
+    display: block;
+    justify-items: center;
+  }
 }
 .profile_name{
   font-size: 20px;
@@ -3705,10 +3742,93 @@ summary::-webkit-details-marker {
 .profile_text{
   font-size: 16px;
 }
-
+@media (max-width: 768px){
+  .profile_text{
+    justify-items: center;
+  }
+  .profile_name{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile_title{
+    text-align: center;
+  }
+}
+.head_img{
+  justify-self: center;
+  margin-block: 50px;
+}
 .profile_image{
   width: 240px;
   border-radius: 100%;
+}
+@media (max-width: 768px){
+  .profile_image{
+    width: 180px;
+  }
+}
+.column04_body{
+  max-width: 800px;
+  justify-self: center;
+  margin-bottom: 100px;
+}
+@media (max-width:768px){
+  .column04_body{
+    margin-inline: 20px;
+  }
+}
+
+.numerical li{
+  list-style: decimal;
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+.dot li{
+  list-style:disc;
+  list-style-position: inside;
+}
+.txt_box{
+  background: rgba(255, 174, 0, 0.17);
+  padding: 15px 30px;
+  margin-block: 60px;
+}
+.txt_box_2{
+  background: rgba(255, 174, 0, 0.17);
+  padding: 15px 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.txt_title{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.txt_bold{
+  font-weight: bold;
+}
+.txt_mark{
+  font-size: smaller;
+}
+.table table{
+  margin-block: 60px;
+}
+.table th{
+  border-bottom: 4px solid white;
+  padding: 10px 25px;
+  width: 50%;
+  color: black;
+  background-color: #EBEBEB;
+  text-align: center;
+}
+.th_left, .th_right{
+  border-right: 4px solid white;
+}
+.table td{
+  padding: 15px 25px;
+  background-color: rgba(255, 174, 0, 0.17);
+}
+.td_left, .td_right{
+  border-right: 4px solid white;
 }
 
 .p-faq {
