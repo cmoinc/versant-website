@@ -3777,6 +3777,10 @@ summary::-webkit-details-marker {
     margin-inline: 20px;
   }
 }
+.jumpto1{
+  color:#10649A;
+  text-decoration: underline #10649A;
+}
 
 .numerical li{
   list-style: decimal;
