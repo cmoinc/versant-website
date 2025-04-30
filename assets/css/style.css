@@ -3684,11 +3684,11 @@ summary::-webkit-details-marker {
   }
 }
 .column04_date{
-  font-size: smaller;
+  font-size: 16px;
 }
 @media (max-width: 768px){
   .column04_date{
-    font-size: x-small;
+    font-size: 12px;
   }
 }
 .h2_04{
@@ -3802,6 +3802,12 @@ summary::-webkit-details-marker {
 .profile_text{
   font-size: 16px;
 }
+.profile_link{
+  text-decoration: underline blue;
+  color: blue;
+  font-size: 18px;
+  margin-top: 10px;
+}
 @media (max-width: 768px){
   .profile_text{
     justify-items: center;
@@ -3813,7 +3819,12 @@ summary::-webkit-details-marker {
   .profile_title{
     text-align: center;
   }
+  .profile_link{
+    font-size: 16px;
+    text-align: right;
+  }
 }
+
 .head_img{
   justify-self: center;
   margin-block: 50px;
