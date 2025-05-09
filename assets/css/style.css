@@ -3683,6 +3683,23 @@ summary::-webkit-details-marker {
     font-size: 5vw;
   }
 }
+@media (min-width:1280px){
+  .column04_title_section{
+    max-width: 800px;
+    margin-inline: auto;
+  }
+  .column04_title{
+    font-size: 29.5px;
+    justify-self: center;
+  }
+  .head_img{
+    max-width: 900px;
+  }
+  .column04_date{
+    font-size: 16px;
+
+  }
+}
 .column04_date{
   font-size: 16px;
 }
